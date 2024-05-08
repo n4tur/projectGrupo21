@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Teko:wght@300..700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(230, 228, 228);
+    text-shadow: 1px 1px 5px rgb(4, 138, 247);
+}
+h3{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    font-family: "josefin sans";
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/026/067/234/non_2x/explore-a-dynamic-technology-concept-through-a-illustration-representing-the-modern-and-fast-paced-evolution-of-artificial-intelligence-it-features-ai-characters-and-interconnected-lines-vector.jpg");
+    background-size: cover;
+    background-position:center;
+}
+main{
+    margin-left: 70px;
+    display: flex;
+    justify-content:flex-start;
+}
+form{
+    
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-grid;
+}
+label{
+    font-family: "teko";
+    font-size: 28px;
+    color: #e3dddd;
+    
+}
+.input{
+    height: 40px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+@keyframes parpadeoBorde {
+    0% {
+      border-color: rgb(252, 249, 249);
+    }
+    50% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: rgb(247, 244, 244);
+    }
+    }
+.input:hover, :focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    animation: parpadeoBorde 1s infinite;
+}
+textarea{
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.boton{
+    padding-top: 25px ;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family: "teko";
+    font-size: 18px;
+    color: #e3dddd;
+    
+}
+.btn:hover{
+   background-color: rgb(82, 88, 88);
+   box-shadow: 2px 1px 10px rgb(214, 210, 210);
+
+}
+
